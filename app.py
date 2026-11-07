@@ -1,6 +1,5 @@
 import streamlit as st
 st.title("frick")
-import kagglehub
 import pandas as pd
 path = kagglehub.dataset_download("rush4ratio/video-game-sales-with-ratings")
 print("Path to dataset files:", path)
